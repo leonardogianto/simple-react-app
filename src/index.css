@@ -1,0 +1,55 @@
+body {
+	margin: 0px;
+	background-color: #fff;
+}
+
+.button {
+	border-radius: 8px;
+	border: 1px solid transparent;
+	padding: 0.5em 1.2em;
+	font-size: 1em;
+	font-weight: 500;
+	font-family: inherit;
+	cursor: pointer;
+	transition: border-color 0.25s;
+}
+
+.links {
+    position: relative;
+    text-align: right;
+}
+
+.myname {
+    float: left;
+    padding-top: 6px;
+}
+
+.toplayouts {
+    position: relative;
+    border: 10px solid transparent;
+    border-radius: 8px;
+}
+
+.imgbox {
+    display: grid;
+    height: 100%;
+}
+
+.center-fit {
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+}
+
+.contact-title {
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    font-size: xx-large;
+}
+
+.contact-subtitle {
+    text-align: center;
+    padding-top: 20px;
+    line-height: 10px;
+}
